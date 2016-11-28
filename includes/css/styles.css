@@ -1,0 +1,302 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+    width:200px;
+  }
+  .navbar-brand
+  {
+    padding: 12px;
+  }
+  #navbar-id{
+    background-color: brown;
+
+  }
+  #navbar-id a{
+    color: black;
+    font-size:15px;
+  }
+  
+  
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   .center {
+    margin-top: 100px;
+    color:brown;
+
+  }
+  .center h6{
+    font-size: 24px;
+  }
+  .center h1{
+    color:red;
+  }
+
+  #myCarousel p{
+    color:red;
+  }
+  #myCarousel h4{
+    color:red;
+  }
+  .carousel-caption{
+    font-size: 24px;
+  }
+  .carousel-caption h4{
+    font-size: 32px;
+  }
+
+  #myCarousel .item { height: 400px; }
+
+  #slide1 {
+    background: url('../../images/carousel_medium_img1.jpg') top center no-repeat;
+  }
+
+  #slide2 {
+    background: url('../../images/carousel_medium_img2.jpg') top center no-repeat;
+  }
+
+  #slide3 {
+    background: url('../../images/carousel_medium_img3.jpg') top center no-repeat;
+  }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+   /*----------------------
+    id=about
+    ------------------------*/
+
+    video{
+      width:100%;
+      height:380px;
+    }
+
+    #about h2{
+      color:red;
+
+    }
+    #about h3{
+      color:lightblue;
+    }
+
+    #about p{
+      color:black;
+      font-size:17px;
+      margin: 30px;
+    }
+    #about{
+      margin-top: 10px;
+      margin-left:5px; 
+    }
+
+
+    /*----------------------
+    class=row id=hairstyles
+    ------------------------*/
+
+    #hairstyles{
+      margin-left: 10px;
+
+    }
+    h2{
+      color:red;
+      margin-left: 30px;
+    }
+    #hairstyles h3{
+      color:brown;
+      margin-left: 30px;
+    }
+
+    /*----------------------
+    class=row id=features
+    ------------------------*/
+
+
+    #features{
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+    #features .label
+    {
+      font-size:18px;
+      position:absolute;
+      top:-10px;
+      right:-10px;
+      padding:10px;
+    }
+    .panel-heading{
+      background-color: red;
+    }
+
+    .popular{
+      margin-top: 100px;
+      margin-left: 30px;
+    }
+    .popular p{
+     margin-left: 50px;
+   }
+   #popular-row{
+     margin-top: 40px;
+     margin-left: 50px;
+     padding:20px;
+   }
+
+   .new{
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .new p{
+   margin-left: 50px;
+ }
+ #new-row{
+   margin-top: 40px;
+   margin-left: 50px;
+   padding:20px;
+ }
+ .short{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.short p{
+ margin-left: 50px;
+}
+#short-row{
+ margin-top: 40px;
+ margin-left: 50px;
+ padding:20px;
+}
+.medium{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.medium p{
+ margin-left: 50px;
+}
+#medium-row{
+ margin-top: 40px;
+ margin-left: 50px;
+ padding:20px;
+}
+.long{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.long p{
+ margin-left: 50px;
+}
+#long-row{
+ margin-top: 40px;
+ margin-left: 50px;
+ padding:20px;
+}
+
+.hairconsultant{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.hairconsultant p{
+ margin-left: 50px;
+}
+#hairconsultant-row{
+ margin-top: 40px;
+ margin-left: 50px;
+ padding:20px;
+}
+footer{
+ background-color: brown;
+}
+
+footer h3,h4,h6{
+ color:black;
+}
+.icon a{
+ font-size:28px;
+ color:blue;
+}
+#help-div{
+ margin-top: 80px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+
+
+   }
+
+   /* Landscape phone to portrait tablet */
+   @media (max-width: 768px) {
+
+     #myCarousel .item { height: 300px; }
+
+
+
+     .carousel-caption{
+      font-size: 12px;
+    }
+    .carousel-caption h4{
+      font-size: 16px;
+    }
+    
+    #slide1 {
+      background: url('../../images/carousel_small_img1.jpg') top center no-repeat;
+    }
+    
+    #slide2 {
+      background: url('../../images/carousel_small_img2.jpg') top center no-repeat;
+    }
+    
+    #slide3 {
+      background: url('../../images/carousel_small_img3.jpg') top center no-repeat;
+    }
+  }
+
+  /* Large desktop */
+  @media (min-width: 1200px) {
+
+   #myCarousel .item { height: 500px; }
+   
+   
+   #slide1 {
+    background: url('../../images/carousel_large_img1.jpg') top center no-repeat;
+  }
+  
+  #slide2 {
+    background: url('../../images/carousel_large_img2.jpg') top center no-repeat;
+  }
+  
+  #slide3 {
+    background: url('../../images/carousel_large_img3.jpg') top center no-repeat;
+  }
+
+}
